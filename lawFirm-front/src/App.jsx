@@ -1,8 +1,15 @@
-import { RouterProvider } from "react-router-dom";
-import { routers } from "./routes";
+import Navbar from "./layout/navbar";
+import Footer from "./layout/footer";
+import Home from "./pages/home";
 
 function App() {
-  return <RouterProvider router={routers} />;
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

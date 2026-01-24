@@ -1,14 +1,11 @@
 import HomeSlider from "./homeSlider/index";
+import About from "../about/index"
 
 function index() {
   return (
     <>
-      <div id="home" className="h-screen">
-        <HomeSlider />
-      </div>
-      <section id="about" className="h-screen">
-        About
-      </section>
+      <HomeSlider />
+      <About/>
       <section id="practice" className="h-screen">
         Practice
       </section>

@@ -11,7 +11,7 @@ import { Keyboard, Pagination } from "swiper/modules";
 
 function index() {
   return (
-    <>
+    <section id="home" className="h-screen">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -22,7 +22,7 @@ function index() {
           clickable: true,
         }}
         modules={[Keyboard, Pagination]}
-        className="mySwiper homeSlider"
+        className="mySwiper h-full homeSlider"
       >
         <SwiperSlide>
           <img src="https://html.multipurposethemes.com/lawfirmonepage/law_firm_bt_5/images/home-7/travel1.jpg" />
@@ -49,7 +49,7 @@ function index() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </section>
   );
 }
 
