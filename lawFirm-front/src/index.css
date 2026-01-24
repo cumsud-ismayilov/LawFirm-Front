@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  @apply font-sans;
+} */
+
+.homeSlider {
+  width: 100%;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    width: 1520px!important;
+    /* width: 100%; */
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .swiper-pagination {
+    left: 96% !important;
+    bottom: 57% !important;
+    .swiper-pagination-bullet {
+      background: #fff;
+      display: block;
+      border-radius: 0;
+      width: 15px;
+      height: 15px;
+      margin-bottom: 11px!important;
+    }
+  }
+}
