@@ -1,5 +1,7 @@
 import HomeSlider from "./homeSlider/index";
 import About from "../about/index"
+import Attorney from "../attorney/index"
+import Blog from "../blog/index"
 
 function index() {
   return (
@@ -12,12 +14,8 @@ function index() {
       <section id="testimonials" className="h-screen">
         Testimonials
       </section>
-      <section id="attorney" className="h-screen">
-        Attorney
-      </section>
-      <section id="blog" className="h-screen">
-        Blog
-      </section>
+      <Attorney/>
+      <Blog/>
       <section id="contact" className="h-screen">
         Contact
       </section>
