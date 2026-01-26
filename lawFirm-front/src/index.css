@@ -23,7 +23,7 @@
     text-align: center;
     font-size: 18px;
     background: #444;
-    width: 1520px!important;
+    width: 1520px !important;
     /* width: 100%; */
     /* Center slide text vertically */
     display: flex;
@@ -48,7 +48,44 @@
       border-radius: 0;
       width: 15px;
       height: 15px;
-      margin-bottom: 11px!important;
+      margin-bottom: 11px !important;
     }
+  }
+}
+
+.testimSlider {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #444; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet {
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #c18f59 !important;
+    border-radius: 0 !important;
+    width: 10px !important;
+    height: 10px !important;
   }
 }
