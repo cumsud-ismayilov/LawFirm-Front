@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+::selection {
+  background: #c99a5c; /* sənin qızılı rəngin */
+  color: #ffffff;      /* seçilmiş textin rəngi */
+}
+
 /* body {
   @apply font-sans;
 } */

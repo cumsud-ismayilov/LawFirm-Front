@@ -2,7 +2,7 @@ import React from "react";
 
 function index() {
   return (
-    <section id="blog" className="">
+    <section id="blog" className="bg-[#F7F7F7]">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-auto lg:min-h-[70vh]">
         {/* SOL HİSSƏ */}
         <div className="flex flex-col justify-center items-center px-8 lg:px-24 ">

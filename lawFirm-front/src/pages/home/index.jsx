@@ -3,21 +3,19 @@ import About from "../about/index"
 import Attorney from "../attorney/index"
 import Blog from "../blog/index"
 import Testimonials from "../testimonials/index"
+import ContactUs from "../contactUs/index"
+import Practice from "../practiceAreas/index"
 
 function index() {
   return (
     <>
       <HomeSlider />
       <About/>
-      <section id="practice" className="h-screen">
-        Practice
-      </section>
+      <Practice/>
       <Testimonials/>
       <Attorney/>
       <Blog/>
-      <section id="contact" className="h-screen">
-        Contact
-      </section>
+      <ContactUs/>
     </>
   );
 }
